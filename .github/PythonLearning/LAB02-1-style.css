@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 15% 59% 20%;
+    grid-gap: 3%;
+}
+
+#header {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    border: solid 0px;
+}
+
+#navigation {
+    grid-column-start: 1;
+    border: solid 0px;
+}
+
+#maincontent {
+    grid-column-start: 2;
+    border: solid 0px;
+}
+
+#sidebar {
+    grid-column-start: 3;
+    border: solid 0px;
+    grid-column-end: span 3;
+}
+#footer {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    border: solid 0px;
+}
