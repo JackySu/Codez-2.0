@@ -1,6 +1,5 @@
 def _is_hw(n):
-    l = len(n)
-    if l % 2 == 0:
+    if (l:=len(n)) % 2 == 0:
         if n[:l // 2: 1] == n[:l // 2 - 1: -1]:
             return True
         else:
